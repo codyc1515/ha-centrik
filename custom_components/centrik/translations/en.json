@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Centrik",
+        "description": "Enter your Centrik account credentials.",
+        "data": {
+          "username": "Email address",
+          "password": "Password",
+          "variant": "Service",
+          "repeat_notification_enabled": "Notify me before a repeat is due",
+          "repeat_notification_days_before": "Repeat reminder lead time (days)",
+          "prescription_notification_enabled": "Notify me before my prescription runs out",
+          "prescription_notification_days_before": "Prescription reminder lead time (days)"
+        },
+        "data_description": {
+          "repeat_notification_days_before": "How many days in advance to remind you to order your next repeat (0-14).",
+          "prescription_notification_days_before": "How many days in advance to remind you to contact your doctor for a new prescription (0-14)."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This account is already configured"
+    }
+  }
+}

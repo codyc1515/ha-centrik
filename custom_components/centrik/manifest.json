@@ -1,0 +1,13 @@
+{
+  "domain": "centrik",
+  "name": "Centrik",
+  "codeowners": ["@codyc1515"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/codyc1515/ha-centrik",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/codyc1515/ha-centrik/issues",
+  "requirements": ["pycognito>=2024.5.0"],
+  "version": "0.1.0"
+}

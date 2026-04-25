@@ -2,13 +2,6 @@
 
 Centrik for Home Assistant helps you keep track of active medications and repeat dates in your calendar.
 
-## Important Disclaimer
-
-This project is community-made.
-
-- We are **not affiliated with Centrik**.
-- This integration is **not provided, reviewed, or supported by Centrik**.
-
 ## What You Get
 
 - One calendar per active medication
@@ -41,7 +34,9 @@ Right now this supports:
 
 - Medication data is refreshed **daily**.
 
-## Repository
+# Disclaimer
 
-- https://github.com/codyc1515/ha-centrik
-- Issues: https://github.com/codyc1515/ha-centrik/issues
+This project is community-made.
+
+- We are **not affiliated with Centrik**.
+- This integration is **not provided, reviewed, or supported by Centrik**.
